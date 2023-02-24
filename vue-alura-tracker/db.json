@@ -1,0 +1,36 @@
+{
+  "projetos": [
+    {
+      "id": 1,
+      "nome": "Alura Tracker"
+    },
+    {
+      "id": 2,
+      "nome": "Plano de Estudos (Vue)"
+    },
+    {
+      "id": 3,
+      "nome": "Estudando padrões de arquitetura"
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "duracaoEmSegundos": 120,
+      "descricao": "Configuração do Ambiente",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker"
+      }
+    },
+    {
+      "duracaoEmSegundos": 1,
+      "descricao": "Estrutura de Dados",
+      "projeto": {
+        "id": 3,
+        "nome": "Estudando padrões de arquitetura"
+      },
+      "id": 2
+    }
+  ]
+}
